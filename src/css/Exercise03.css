@@ -35,6 +35,10 @@
     width: 50%;
     font-size: large;
 }
+
+.container-textos .titulo{
+    margin-bottom: 16px;
+}
 /* Fim home */
 
 /* Footer section */

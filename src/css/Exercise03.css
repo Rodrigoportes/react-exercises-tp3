@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header section */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+    background-color: aqua;
+}
+
+/* Fim header */
+
+
+/* Home section */
+.home{
+    display: flex;
+    gap: 18px;
+    padding: 16px;
+}
+
+.container-img{
+    width: 50%;
+}
+
+.img{
+    width: 100%;
+}
+
+.container-textos{
+    width: 50%;
+    font-size: large;
+}
+/* Fim home */
+
+/* Footer section */
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px ;
+    background-color: aqua;
+}    
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Fim footer */

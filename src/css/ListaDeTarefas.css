@@ -16,9 +16,9 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid yellow;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: aqua;
   }
   
   .tarefa-nome {

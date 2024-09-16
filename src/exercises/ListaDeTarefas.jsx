@@ -1,6 +1,5 @@
-// src/exercises/ListaDeTarefas.js
 import React from 'react';
-import Tarefa from './Tarefa'; // Verifique o caminho para o componente Tarefa
+import Tarefa from './Tarefa'; 
 import '../css/ListaDeTarefas.css'; 
 
 const tarefas = [

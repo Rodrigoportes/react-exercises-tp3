@@ -1,10 +1,9 @@
-// src/exercises/Produtos.js
 import React from 'react';
 import PropTypes from 'prop-types';
 
 const Produtos = ({ nome, preco, disponivel }) => {
   return (
-    <div className="produto">
+    <div className={`produto ${!disponivel ? 'produto-esgotado' : ''}`}>
       <h2 className="produto-nome">{nome}</h2>
       <p className="produto-preco">Preço: R${preco.toFixed(2)}</p>
       <p className={`produto-disponivel ${disponivel ? 'disponivel' : 'indisponivel'}`}>

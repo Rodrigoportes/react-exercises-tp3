@@ -1,7 +1,6 @@
-// src/exercises/ListaDeProdutos.js
-import React from 'react';
-import Produtos from './Produtos'; // Verifique o caminho para o componente Produtos
-import '../css/ListaDeProdutos.css'; // Verifique o caminho para o arquivo CSS
+import React, { useState } from 'react';
+import Produtos from './Produtos'; 
+import '../css/ListaDeProdutos.css'; 
 
 const produtos = [
   { nome: 'Produto A', preco: 29.99, disponivel: true },
@@ -11,9 +10,29 @@ const produtos = [
 ];
 
 const ListaDeProdutos = () => {
+  const [mostrarDisponiveis, setMostrarDisponiveis] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setMostrarDisponiveis(!mostrarDisponiveis);
+  };
+
+  const produtosFiltrados = mostrarDisponiveis
+    ? produtos.filter((produto) => produto.disponivel)
+    : produtos;
+
   return (
     <div className="lista-de-produtos">
-      {produtos.map((produto, index) => (
+      <div className="filtro-disponiveis">
+        <label>
+          <input
+            type="checkbox"
+            checked={mostrarDisponiveis}
+            onChange={handleCheckboxChange}
+          />
+          Mostrar apenas produtos disponíveis
+        </label>
+      </div>
+      {produtosFiltrados.map((produto, index) => (
         <Produtos
           key={index}
           nome={produto.nome}

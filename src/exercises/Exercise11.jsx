@@ -1,7 +1,6 @@
-// src/exercises/Exercicio11.js
 import React, { useState } from 'react';
-import Formulario from './Formulario'; // Verifique o caminho para o componente Formulario
-import Resumo from './Resumo'; // Verifique o caminho para o componente Resumo
+import Formulario from './Formulario'; 
+import Resumo from './Resumo'; 
 import '../css/Formulario.css'; 
 
 const Exercicio11 = () => {

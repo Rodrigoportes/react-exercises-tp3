@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Header section */
-
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -13,10 +11,6 @@
     background-color: aqua;
 }
 
-/* Fim header */
-
-
-/* Home section */
 .home{
     display: flex;
     gap: 18px;
@@ -39,9 +33,7 @@
 .container-textos .titulo{
     margin-bottom: 16px;
 }
-/* Fim home */
 
-/* Footer section */
 .rodape{
     display: flex;
     justify-content: space-around;
@@ -62,6 +54,3 @@
     justify-content: center;
     align-items: center;
 }
-
-
-/* Fim footer */

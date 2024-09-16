@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
+import ListaDeProdutos from './ListaDeProdutos'; 
+import '../css/ListaDeProdutos.css'; 
 
-const Exercise14 = () => {
-
+const Exercicio14 = () => {
   return (
-    <>
-    </>
+    <div>
+      <h1>Lista de Produtos - Exercício 14</h1>
+      <ListaDeProdutos />
+    </div>
   );
 };
 
-export default Exercise14;
+export default Exercicio14;
+

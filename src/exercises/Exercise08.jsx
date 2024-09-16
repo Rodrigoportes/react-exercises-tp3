@@ -1,5 +1,5 @@
 import React from "react";
-import ImagemLink from './ImagemLink'; // Corrigida a sintaxe da importação
+import ImagemLink from './ImagemLink'; 
 import praia from '../img/praia.jpg';
 
 const Exercise08 = () => {

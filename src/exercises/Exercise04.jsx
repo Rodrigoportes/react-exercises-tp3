@@ -2,7 +2,6 @@ import React from "react";
 import '../css/exercise04.css'
 
 const Exercise04 = () => {
-  // Array contendo os itens da lista
   const items = [
     "Desenvolvimento de Software: Criamos soluções personalizadas que impulsionam a eficiência e a agilidade dos negócios.",
     "Infraestrutura de TI: Oferecemos serviços de gestão e suporte para garantir que seus sistemas operacionais funcionem sem interrupções.",
@@ -15,7 +14,6 @@ const Exercise04 = () => {
   return (
     <div className="container-lista">
       <ul className="lista">
-        {/* Renderizando os itens da lista dinamicamente */}
         {items.map((item, index) => (
           <li key={index} className="itens">{item}</li>
         ))}

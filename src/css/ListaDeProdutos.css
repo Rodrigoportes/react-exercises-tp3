@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lista-de-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .produto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .produto-nome {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .produto-preco {
+    font-size: 1.2em;
+  }
+  
+  .produto-disponivel {
+    font-weight: bold;
+  }
+  
+  .produto-disponivel.disponivel {
+    color: #4caf50; 
+  }
+  
+  .produto-disponivel.indisponivel {
+    color: #f44336; 
+  }
+  
